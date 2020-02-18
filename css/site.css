@@ -1,0 +1,39 @@
+body {
+	background-color:#000;
+}
+
+h1, ul, p {
+	color:#f8f8f2;
+}
+
+.markdowntype {
+	color: #f8f8f2;
+	background-color:#2b2b2b;
+	padding:10px;
+}
+
+.row {
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.dataframe {
+	background-color:#f5f5f5;
+}
+
+#content {
+	margin-bottom:50px;
+}
+
+.code {
+	white-space: pre-wrap;
+}
+
+.output {
+	color: #f8f8f2;
+}
+
+.stream {
+	white-space: pre-wrap;
+	font-family: monospace;
+}
