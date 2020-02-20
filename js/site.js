@@ -20,6 +20,10 @@ function processFile(data){
 
 
   function nextCell(){
+    console.log(currentCell);
+    if(currentCell == 39){
+      location.reload();
+    }
     currentCell++;
     currentLine = -1;
     cellType = data.cells[currentCell].cell_type;
